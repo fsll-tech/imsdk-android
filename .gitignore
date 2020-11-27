@@ -6,9 +6,10 @@ target/
 
 # eclipse ignore
 .settings/
+.gradle/
 .project
 .classpath
-
+build/
 # idea ignore
 .idea/
 *.ipr
