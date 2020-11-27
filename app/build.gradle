@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion project.compileSdkVersion as int
     defaultConfig {
-        applicationId "sdk.im.qunar.com.qtalksdkdemo"
+        applicationId "sdk.im.qunar.com.xiaoxun"
         minSdkVersion project.minSdkVersion as int
         targetSdkVersion project.targetSdkVersion as int
         versionCode 206
@@ -44,15 +44,15 @@ android {
             dimension "qim"
 
             manifestPlaceholders = [
-                    PACKAGE_NAME : "sdk.im.qunar.com.qtalksdkdemo",
+                    PACKAGE_NAME : "sdk.im.qunar.com.xiaoxun",
                     serverDoMain  : true,
                     baiduMap :"xxxxx",//百度地图key 用于发送位置消息
-                    HUAWEI_APPID : "123",//华为push
+                    HUAWEI_APPID : "103291709",//华为push
                     OPPO_APP_ID : "123",//OPPOpush
                     OPPO_APP_KEY : "123",
                     OPPO_APP_SECRET : "123",
-                    MIPUSH_APP_ID : "123",//小米push
-                    MIPUSH_APP_KEY : "123",
+                    MIPUSH_APP_ID : "5731883376616",//小米push
+                    MIPUSH_APP_KEY : "zcv2eyNZhdr//eCGvrQW4g==",
                     MEIZU_APP_ID : "123",//魅族push
                     MEIZU_APP_KEY : "123",
                     VIVO_APP_ID : "123",//vivoo
@@ -67,7 +67,7 @@ android {
 //            dimension "qim"
 //
 //            manifestPlaceholders = [
-//                    PACKAGE_NAME : "sdk.im.qunar.com.qtalksdkdemo",
+//                    PACKAGE_NAME : "sdk.im.qunar.com.xiaoxun",
 //                    serverDoMain  : false,
 //                    baiduMap :"xxxxx",//百度地图key 用于发送位置消息
 //                    HUAWEI_APPID : "123",//华为push

@@ -71,7 +71,7 @@ flavorDimensions "qim"
             dimension "qim"
 
             manifestPlaceholders = [
-                    PACKAGE_NAME : "sdk.im.qunar.com.qtalksdkdemo",//Replace it with the application ID of your own project
+                    PACKAGE_NAME : "sdk.im.qunar.com.xiaoxun",//Replace it with the application ID of your own project
                     serverDoMain  : true,
                     baiduMap :"xxxxx",//key of Baidu map (for sending location)
                     HUAWEI_APPID : "123",//HUAWEI push
@@ -94,7 +94,7 @@ flavorDimensions "qim"
             dimension "qim"
 
             manifestPlaceholders = [
-                    PACKAGE_NAME : "sdk.im.qunar.com.qtalksdkdemo",//Replace it with the application ID of your own project
+                    PACKAGE_NAME : "sdk.im.qunar.com.xiaoxun",//Replace it with the application ID of your own project
                     serverDoMain  : false,
                     baiduMap :"xxxxx",//key of Baidu map (for sending location)
                     HUAWEI_APPID : "123",//HUAWEI push

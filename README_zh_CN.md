@@ -79,7 +79,7 @@ flavorDimensions "qim"
             dimension "qim"
 
             manifestPlaceholders = [
-                    PACKAGE_NAME : "sdk.im.qunar.com.qtalksdkdemo",//替换成自己项目的applicationId
+                    PACKAGE_NAME : "sdk.im.qunar.com.xiaoxun",//替换成自己项目的applicationId
                     serverDoMain  : true,
                     baiduMap :"xxxxx",//百度地图key 用于发送位置消息
                     HUAWEI_APPID : "123",//华为push
@@ -102,7 +102,7 @@ flavorDimensions "qim"
             dimension "qim"
 
             manifestPlaceholders = [
-                    PACKAGE_NAME : "sdk.im.qunar.com.qtalksdkdemo",//替换成自己项目的applicationId
+                    PACKAGE_NAME : "sdk.im.qunar.com.xiaoxun",//替换成自己项目的applicationId
                     serverDoMain  : false,
                     baiduMap :"xxxxx",//百度地图key 用于发送位置消息
                     HUAWEI_APPID : "123",//华为push
